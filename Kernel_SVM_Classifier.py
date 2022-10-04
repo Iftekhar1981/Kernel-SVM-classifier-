@@ -9,7 +9,7 @@ Created on Tue Oct  4 23:45:08 2022
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Social_Network_Ads.csv')
+dataset = pd.read_csv('Customer_Data.csv')
 
 #Matrix of features (Independent Variables) 
 X = dataset.iloc[:, [2, 3]].values
